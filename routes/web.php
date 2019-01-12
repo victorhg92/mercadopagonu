@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::post('checkout', 'Controller@checkout')->name('checkout');
+Route::get('create-user', 'Controller@createTestUser')->name('createUser');
